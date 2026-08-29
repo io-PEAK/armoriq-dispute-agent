@@ -1,0 +1,13 @@
+agent.md
+PSAutomateIndiaHack.docx
+.env
+node_modules/
+dist/
+.cursorignore
+.vercel
+demo/
+learn.md
+PROGRESS.md
+slide.md
+.DS_Store
+pitch.md
