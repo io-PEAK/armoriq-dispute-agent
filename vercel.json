@@ -1,0 +1,29 @@
+{
+  "buildCommand": "npx prisma generate",
+  "installCommand": "npm install",
+  "outputDirectory": "public",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "src/**"
+    },
+    "api/agent.js": {
+      "includeFiles": "src/**"
+    },
+    "api/seed.js": {
+      "includeFiles": "src/**"
+    },
+    "api/status.js": {
+      "includeFiles": "src/**"
+    },
+    "api/v1/tools/list.js": {
+      "includeFiles": "src/**"
+    },
+    "api/v1/chat.js": {
+      "includeFiles": "src/**",
+      "maxDuration": 30
+    },
+    "api/verify.js": {
+      "includeFiles": "src/**"
+    }
+  }
+}
